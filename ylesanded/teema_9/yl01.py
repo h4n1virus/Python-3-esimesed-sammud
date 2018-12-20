@@ -2,11 +2,10 @@
 # 19.12.2018
 # Ülesanne 09 - 01
 
-
 from datetime import datetime
 
-
 date = datetime.today()
+
 
 def switcher(a):
     if date.month == 1:
@@ -34,7 +33,6 @@ def switcher(a):
     elif date.month == 12:
         return "Detsember"
 
-print(date.day, date.strftime("%B"), date.year)
-print(date.day, switcher(date.month), date.year)
 
-
+print('{}. {} {}'.format(date.day, date.strftime("%B"), date.year))
+print('{}. {}. {}'.format(date.day, switcher(date.month), date.year))

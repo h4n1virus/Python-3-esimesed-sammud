@@ -2,9 +2,7 @@
 # 19.12.2018
 # Ülesanne 09 - 02
 
-
 from datetime import datetime
-
 
 date = datetime.today()
 
@@ -19,9 +17,7 @@ if c == 3 or c == 4:
 if c == 5 or c == 6:
     z = "20"
 
-g = datetime((int(z+d)), int(e), int(f))
+g = datetime((int(z + d)), int(e), int(f))
 f = date.year - g.year - ((date.month, date.day) < (g.month, g.day))
 print("Teie sünnikuupäevaks on: {}.{}.{}".format(g.day, g.month, g.year))
 print("Te olete: {} aastane vanune".format(f))
-
-

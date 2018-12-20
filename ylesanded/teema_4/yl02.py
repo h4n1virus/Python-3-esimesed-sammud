@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 04 - 02
 
-
 a = float(input('Sisestage arv: '))
 b = float(input('Sisestage arv: '))
 c = input('Mis tehet te soovite teha? + - * / : ')
@@ -19,5 +18,3 @@ elif '+' in c:
 elif '-' in c:
     d = a - b
     print('Lahutamise vastuseks tuli: {}'.format(d))
-
-

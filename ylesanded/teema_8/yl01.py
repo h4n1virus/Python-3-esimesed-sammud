@@ -15,12 +15,13 @@ class auto:
 
     def lisaMark(self, x):
         self.mark = x
-    
+
     def lisaAasta(self, x):
         self.aasta = x
-    
+
     def kuva(self):
-        print("\nMark: {0}\nAasta: {1}\nHind: {2}".format(self.mark, self.aasta, self.hind))
+        print("\nMark: {0}\nAasta: {1}\nHind: {2}".format(
+            self.mark, self.aasta, self.hind))
 
 
 liikur = auto("Audi", 1988, 600)
@@ -28,5 +29,3 @@ liikur.kuva()
 
 liikur2 = auto("Mercedes-Benz", 1980, 2400)
 liikur2.kuva()
-
-

@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 06 - 04
 
-
 a = open('tekstifailid\\s6pru_l6ustaraamatus.txt', 'r')
 b = open('tekstifailid\\teema6_yl04.txt', 'w')
 c = a.read()
@@ -14,4 +13,3 @@ for x in d:
 
 a.close()
 b.close()
-

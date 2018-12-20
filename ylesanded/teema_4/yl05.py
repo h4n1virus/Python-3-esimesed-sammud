@@ -2,9 +2,7 @@
 # 19.12.2018
 # Ülesanne 04 - 05
 
-
 from datetime import datetime
-
 
 a = str(input('Mis soost te olete (m/n): ')).lower()
 a = a[0]
@@ -22,5 +20,3 @@ elif 'm' in a:
         print("Te ei ole sobilik")
 else:
     print("Te ei ole sobilik")
-
-

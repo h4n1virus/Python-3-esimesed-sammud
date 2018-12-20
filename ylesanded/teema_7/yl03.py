@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 07 - 03
 
-
 from os import system
 from math import pi
 
@@ -11,17 +10,21 @@ def kuupV(a):
     v = a**3
     return v
 
+
 def keraV(r):
     v = 4 / 3 * pi * r**3
     return v
+
 
 def koonuseV(sp, st):
     v = 1 / 3 * sp * st
     return v
 
+
 def silinderV(h, r):
     v = pi * r**2 * h
     return v
+
 
 def yl03():
     while True:
@@ -47,7 +50,8 @@ def yl03():
             continue
         elif a == 3:
             sp = float(input("Valisid koonuse. Sisesta koonuse kõrgus: "))
-            st = float(input("Valisid koonuse. Sisesta koonuse põhjapindala: "))
+            st = float(
+                input("Valisid koonuse. Sisesta koonuse põhjapindala: "))
             print("Koonuse ruumala on: {}".format(koonuseV(sp, st)))
             input()
             continue
@@ -59,5 +63,3 @@ def yl03():
             continue
         elif a == 5:
             break
-
-

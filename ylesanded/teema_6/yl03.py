@@ -2,13 +2,13 @@
 # 19.12.2018
 # Ülesanne 06 - 03
 
-
 a = open('tekstifailid\\s6pru_l6ustaraamatus.txt', 'r')
 b = a.read()
 c = b.splitlines()
 d = list()
 
-print('{:15}{:<15}{:<10}{:<}'.format('Eesnimi', 'Perenimi', 'Erakond', 'Number'))
+print('{:15}{:<15}{:<10}{:<}'.format('Eesnimi', 'Perenimi', 'Erakond',
+                                     'Number'))
 
 for x in c:
     h = x.split()
@@ -21,5 +21,3 @@ d.sort()
 print('Erakondi kokku: {}'.format(len(d)))
 
 a.close()
-
-

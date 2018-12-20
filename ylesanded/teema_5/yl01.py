@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 05 - 01
 
-
 a = []
 
 for i in range(0, 5):
@@ -15,5 +14,3 @@ for d in a:
     print(d)
 
 print('Viimaseks nimeks oli: {}'.format(c))
-
-

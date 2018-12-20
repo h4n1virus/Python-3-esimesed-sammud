@@ -11,5 +11,3 @@ def tervita(a, b="de"):
         print("Hello, {}".format(a))
     elif "et" in b:
         print("Tere Hommikust, {}".format(a))
-
-

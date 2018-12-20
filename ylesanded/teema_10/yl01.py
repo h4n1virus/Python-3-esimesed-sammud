@@ -2,9 +2,7 @@
 # 19.12.2018
 # Ülesanne 10 - 01
 
-
 from re import compile
-
 
 f = open('tekstifailid\\yl10.txt', 'r')
 b = f.read().splitlines()
@@ -16,5 +14,3 @@ for x in b:
         print(x)
 
 f.close()
-
-
