@@ -4,6 +4,6 @@
 
 for i in range(1, 101):
     if i % 2 == 0:
-        print('{} paaris'.format(i))
+        print('{}\tpaaris'.format(i))
     else:
-        print('{} paaritu'.format(i))
+        print('{}\tpaaritu'.format(i))
