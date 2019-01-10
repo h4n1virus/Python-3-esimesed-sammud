@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 07 - 02
 
-
 def tervita(a, b="de"):
     a = a.capitalize
     if "de" in b:
