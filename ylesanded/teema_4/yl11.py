@@ -12,8 +12,6 @@ print('Teil on kolm korda võimalik ära arvata')
 
 i = 0
 while i <= 3:
-    d = input('Arvake ära suvaline arv: ')
-    i = i + 1
     if i == 3:
         print('Te olete oma kolm korda ära arvanud')
         e = str(input('Kas te soovite edasi proovida? (J/E)')).lower()
@@ -21,7 +19,9 @@ while i <= 3:
             break
         elif 'j' in e:
             i = 0
-    elif d == c:
+    d = input('Arvake ära suvaline arv: ')
+    if d == c:
         print('Õnnitleme te arvasite ära')
     elif d != c:
         print('Proovige uuesti')
+    i = i + 1
