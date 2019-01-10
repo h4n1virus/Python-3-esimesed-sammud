@@ -8,4 +8,5 @@ a = int(input('Mitu minutit: '))
 b = a % 60
 c = a / 60
 d = floor(c)
+
 print('{}:{}'.format(d, b))

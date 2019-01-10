@@ -4,4 +4,5 @@
 
 a = input('Kuidas on teie eesnimi: ')
 b = a.capitalize()
+
 print('Tere,{}'.format(b))
