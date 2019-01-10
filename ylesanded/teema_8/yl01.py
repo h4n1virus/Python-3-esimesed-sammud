@@ -2,7 +2,6 @@
 # 19.12.2018
 # Ülesanne 08 - 01
 
-
 class auto:
     mark = ' '
     aasta = 0
