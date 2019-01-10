@@ -3,7 +3,7 @@
 # Ülesanne 04 -13
 
 print('{:<5}{:<5}{:<5}'.format('Arv', 'Ruut', 'Kuup'))
-for i in range(1, 10):
+for i in range(1, 11):
     a = i * i
     b = i * i * i
     print('{:<5}{:<5}{:<5}'.format(i, a, b))
