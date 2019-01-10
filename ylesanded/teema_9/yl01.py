@@ -32,6 +32,5 @@ def switcher(a):
     elif date.month == 12:
         return "Detsember"
 
-
 print('{}. {} {}'.format(date.day, date.strftime("%B"), date.year))
 print('{}. {}. {}'.format(date.day, switcher(date.month), date.year))
