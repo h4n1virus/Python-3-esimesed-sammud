@@ -15,9 +15,10 @@ for x in c:
     d.append(h[2])
     print('{:15}{:<15}{:<10}{:<}'.format(h[0], h[1], h[2], h[3]))
 
+e = set(d)
+
 print('\nReformikaid: {}'.format(d.count('RE')))
 print('Kesikuid: {}'.format(d.count('KE')))
-d.sort()
-print('Erakondi kokku: {}'.format(len(d)))
+print('Erakondi kokku: {}'.format(len(e)))
 
 a.close()
