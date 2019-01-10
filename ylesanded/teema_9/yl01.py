@@ -6,7 +6,6 @@ from datetime import datetime
 
 date = datetime.today()
 
-
 def switcher(a):
     if date.month == 1:
         return "Jaanuar"

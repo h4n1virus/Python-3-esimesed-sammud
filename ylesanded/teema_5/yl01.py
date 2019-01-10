@@ -7,6 +7,7 @@ a = []
 for i in range(0, 5):
     b = str(input('Paluks nime: '))
     a.append(b)
+    
 c = a[4]
 a.sort()
 

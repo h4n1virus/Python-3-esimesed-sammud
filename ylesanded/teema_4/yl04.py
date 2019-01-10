@@ -3,6 +3,7 @@
 # Ülesanne 04 - 04
 
 a = float(input('Kui palju toode maksab?: '))
+
 if a < float(10):
     b = a * 0.10
     c = round((a - b), 2)
