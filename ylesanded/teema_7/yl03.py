@@ -5,6 +5,22 @@
 from os import system
 from math import pi
 
+def kuup(a):
+    v = a**3
+    return v
+
+def kera(r):
+    v = 4 / 3 * pi * r**3
+    return v
+
+def koonus(h, sp):
+    v = 1 / 3 * sp * h
+    return v
+
+def silinder(h, r):
+    v = pi * r**2 * h
+    return v
+
 while True:
     system('cls')
     print("********** LEIAME RUUMALA **********")
@@ -18,28 +34,24 @@ while True:
 
     if a == 1:
         a = float(input("Valisid kuubi. Sisesta kuubi külg: "))
-        v = a**3
-        print('\nKuubi ruumala on: {}'.format(v))
+        print('\nKuubi ruumala on: {}'.format(kuup(a)))
         input()
         continue
     elif a == 2:
         r = float(input("Valisid kera. Sisesta kera raadius: "))
-        v = 4 / 3 * pi * r**3
-        print('\nKera ruumala on: {}'.format(v))
+        print('\nKera ruumala on: {}'.format(kuup(r)))
         input()
         continue
     elif a == 3:
-        sp = float(input("Valisid koonuse. Sisesta koonuse kõrgus: "))
-        st = float(input("Valisid koonuse. Sisesta koonuse põhjapindala: "))
-        v = 1 / 3 * sp * st
-        print("Koonuse ruumala on: {}".format(v))
+        h = float(input("Valisid koonuse. Sisesta koonuse kõrgus: "))
+        sp = float(input("Valisid koonuse. Sisesta koonuse põhjapindala: "))
+        print("Koonuse ruumala on: {}".format(koonus(h, sp)))
         input()
         continue
     elif a == 4:
         h = float(input("Valisid Silindri. Sisesta silindri kõrgus: "))
         r = float(input("Valisid Silindri. Sisesta silindri raadius: "))
-        v = pi * r**2 * h
-        print("Silindri ruumala on: {}".format(v))
+        print("Silindri ruumala on: {}".format(silinder(h, r)))
         input()
         continue
     elif a == 5:
